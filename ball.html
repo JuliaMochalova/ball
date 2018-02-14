@@ -1,0 +1,46 @@
+﻿<!DOCTUPE>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>мяч</title>
+ </head>
+
+<body>
+        <br>
+        <br>
+        <div>
+          <label>(x;y) =</label>
+            <input type="text" id="X" value="40">
+            <input type="text" id="Y" value="40">;
+          <label>радиус r =</label>
+          <input type="text"  id="r" value="15">;
+          <label>dx =</label>
+            <input type="text" id="dx" value="3">;
+          <label>dy =</label>
+            <input type="text" id="dy" value="3">;
+          <label>dt =</label>
+            <input type="text" id="dt" value="10">;
+        </div>
+        <div>
+          <label>t = </label>
+            <input type="text" id="t" value="3">;
+          <label>k =</label>
+            <input type="text" id="k" value="0.8">
+            <button onclick="animation()">применить</button>
+        </div>
+      <hr>
+      <div >
+        <canvas id="canvas" width="600" height="200"></canvas>
+          <textarea id="log" rows="10" cols="70" width="400"></textarea>
+      </div>
+    </div>
+      <br>
+        <canvas id="graf" width="400" height="200"></canvas>
+
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
